@@ -1,0 +1,21 @@
+function breakingRecords(scores) {
+    // Write your code here
+    let bestRec = scores[0];
+    let worstRec = scores[0];
+    let best = 0;
+    let worst = 0;
+    for (let i = 0; i < scores.length; i++) {
+        if (scores[i] > bestRec) {
+            bestRec = scores[i];
+            best++;
+        }
+
+        if (scores[i] < worstRec) {
+            worstRec = scores[i];
+            worst++;
+        }
+    }
+
+    return [best, worst];
+
+}
