@@ -1,1 +1,1 @@
-Challenges of HackerRank solved in JavaScript to improve my knowledge.
+Challenges of algorithms in HackerRank solved in JavaScript to improve my knowledge.
