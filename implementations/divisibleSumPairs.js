@@ -1,4 +1,4 @@
-//Número de pares que tenham a soma igual a K dentro de uma array
+//Número de pares que tenham a soma divisível a K dentro de uma array
 function divisibleSumPairs(n, k, ar) {
     let pairs = 0;
     for(let m = 0; m < n-1; m++){

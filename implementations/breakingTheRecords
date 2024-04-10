@@ -1,5 +1,5 @@
+//Mostrar o número de vezes que o recorde de melhor e pior pontos foi quebrado
 function breakingRecords(scores) {
-    // Write your code here
     let bestRec = scores[0];
     let worstRec = scores[0];
     let best = 0;
